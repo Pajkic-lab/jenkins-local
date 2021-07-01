@@ -5,7 +5,7 @@ services:
     image: jenkins/jenkins:lts-jdk11
     privileged: true
     user: root
-    restart: always
+    # restart: always
     container_name: dev_jenkins
     ports:
       - 8080:8080
